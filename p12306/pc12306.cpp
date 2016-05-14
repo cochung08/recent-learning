@@ -116,7 +116,7 @@ Ticket *TrainTicketMap::allocate(int start, int length) {
 		register int curStart = start + it->start;
 		register int curLength = length - it->start + it->length;
 		if (curStart >= 0 && curLength < SEGMENTS) {
-			//printf("Searching %d %d\n", curStart, curLength);
+			printf("Searching %d %d\n", curStart, curLength);
 			size_t index = curStart + curLength * SEGMENTS;
 			if (NULL != _map[index]) {
 				ret = _map[index];

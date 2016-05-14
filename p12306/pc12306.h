@@ -19,6 +19,7 @@
 #include <sys/socket.h>
 #include <sys/uio.h>
 #include <errno.h>
+ #include <inttypes.h>
 
 #ifndef __x86_64__
 	#error("X64 arch is required!!!")
@@ -161,6 +162,19 @@ public:
 					_map[index2] = p;
 				}
 			}
+		}
+		printf("the Ticket* _map now is: \n");
+		for (size_t i=0; i<SEGMENTS * SEGMENTS; i++) {
+			// printf("i= %zu, _map[i]->_seat,_start,_length= %zu,%zu,%zu\n",i, (size_t)_map[i]->_seat,(size_t)_map[i]->_start,(size_t)_map[i]->_length);
+			printf("%d\n", &_map[i]->_seat);
+
+			// printf("%zu %d \n",i,_map[i]->_seat);
+			// printf("%zu\n",sizeof(_map)/sizeof(Ticket *));
+			// , (size_t)_map[i]->_seat,(size_t)_map[i]->_start,(size_t)_map[i]->_length);
+
+			// int32_t 	_seat;
+			// int16_t		_start;
+			// int16_t		_length;
 		}
 		return ret;
 	}
