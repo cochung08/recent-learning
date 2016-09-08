@@ -57,8 +57,8 @@ var items = Object.keys(dic).map(function(key) {
 
 // Sort the array based on the second element
 items.sort(function(first, second) {
-    // return second[1] - first[1];
-    return first[1] - second[1];
+    return second[1] - first[1];
+    // return first[1] - second[1];
 
 });
 
