@@ -1,0 +1,1 @@
+gfortran my_cquad.c test_cquad.f90 -lgsl -lopenblas

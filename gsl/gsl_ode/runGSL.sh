@@ -1,0 +1,1 @@
+gcc gsl.c -lgsl -lgslcblas -lm
