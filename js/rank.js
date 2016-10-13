@@ -1,15 +1,6 @@
 console.log('Hello World');
-
-// var lineReader = require('readline').createInterface({
-//   input: require('fs').createReadStream('test.txt')
-//   // input: require('fs').createReadStream('test.txt')
-
-// });
-
-// var myLines =
-// require('fs').readFileSync('test.txt').toString().match(/^.+$/gm);
-// var myLines = require('fs').readFileSync('test.txt').toString()
-var myLines = require('fs').readFileSync('leetcode.txt').toString()
+var myLines = require('fs').readFileSync('test.txt').toString()
+// var myLines = require('fs').readFileSync('leetcode.txt').toString()
 
 arrayOfLines = myLines.match(/[^\r\n]+/g);
 // console.log(arrayOfLines)
@@ -69,7 +60,7 @@ console.log(items.slice(0, 5));
 // console.log(dic)
 
 result = {};
-console.log(items.length);
+// console.log(items.length);
 for (q = 0; q < items.length; ++q) {
     // company=[]
     // console.log(index)
@@ -96,7 +87,6 @@ for (q = 0; q < items.length; ++q) {
 }
 
 // var result = JSON.stringify(result)
-// var result = JSON.stringify(result)
 console.log(result)
 
 
@@ -117,3 +107,4 @@ fs.writeFile(outputFilename, JSON.stringify(myData, null, 4), function(err) {
       console.log("JSON saved to " + outputFilename);
     }
 });
+console.log(items.length);

@@ -1,0 +1,139 @@
+/**
+ * Returns a^b, as the standard mathematical exponentiation function
+ */
+public double pow(double a, int b) {
+    // implementation here
+    
+   return  pow(a,b)
+}
+
+
+2^3
+2^-3
+2^0
+
+def pow(a,b):
+    temp=1
+    #if b%2==0:
+    
+    if b<0:
+        b=abs(b)
+        while b>0:
+            temp=temp*a
+            b=b-1
+        return 1/temp
+        
+    
+    if b>=0:
+        while b>0:
+            temp=temp*a
+            b=b-1
+        return temp    
+
+b>0
+
+2^6
+def pow(a,b):
+    if b ==1:
+        return a
+   
+    if b%2== 0:
+        return pow(a,b/2)*pow(a,b/2)
+    elif b%2==1:
+        temp=pow(a,b/2)
+        return pow(a,b/2)*pow(a,b/2)*a
+        
+   f(b)=2*f(b/2)
+   O(b)
+        
+        
+/**
+ * Given a binary tree where all the right nodes are either empty or leaf nodes, flip it upside down
+ * and turn it into a tree with left leaf nodes.
+ * In the original tree, if a node has a right child, it also must have a left child.
+ *
+ * for example, turn these:
+ *
+ *        1                1
+ *       / \              / \
+ *      2   3            2   3
+ *     /
+ *    4
+ *   / \
+ *  5   6
+ *
+ * into these:
+ *
+ *        1               1
+ *       /               /
+ *      2---3           2---3
+ *     /
+ *    4
+ *   /
+ *  5---6
+ *
+
+root:5
+left : 6
+right: 4
+return (root, right )
+ 
+ 
+def helper(root):
+
+    1.re-arrange the sub-tree
+ #      root-> right child
+ #    left child ->root
+ #     right child -> left child
+    temp=root
+    root=temp->right
+    root->left=temp
+    root->
+    
+    
+    2.return the origial "root"
+    
+
+def reverse(root):
+
+    if root ==None:
+        return None
+    if root->left ==None:
+       return root
+    
+   
+    
+    
+        
+      <newroot,right> = reverse(root->left)
+      
+      right.left = root.right;
+      right.right = root;
+      root.right = null
+      return newroot, root
+    
+    
+
+ * where 5 is the new root node for the left tree, and 2 for the right tree.
+ * oriented correctly:
+ *
+ *     5                  2
+ *    / \                / \
+ *   6   4              3   1
+ *        \
+ *         2
+ *        / \
+ *       3   1
+ *
+ */
+
+class TreeNode {
+    TreeNode left;
+    TreeNode right;
+    int data;
+}
+ 
+public TreeNode reverse(TreeNode node) {
+    // implementation here
+}  
+
