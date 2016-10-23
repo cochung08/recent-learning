@@ -1,6 +1,6 @@
 console.log('Hello World');
-var myLines = require('fs').readFileSync('test.txt').toString()
-// var myLines = require('fs').readFileSync('leetcode.txt').toString()
+// var myLines = require('fs').readFileSync('test.txt').toString()
+var myLines = require('fs').readFileSync('leetcode.txt').toString()
 
 arrayOfLines = myLines.match(/[^\r\n]+/g);
 // console.log(arrayOfLines)
