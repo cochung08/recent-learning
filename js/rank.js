@@ -1,5 +1,4 @@
 console.log('Hello World');
-// var myLines = require('fs').readFileSync('test.txt').toString()
 var myLines = require('fs').readFileSync('leetcode.txt').toString()
 
 arrayOfLines = myLines.match(/[^\r\n]+/g);
@@ -18,7 +17,6 @@ for (i = 0; i < arrayOfLines.length; i++) {
             // console.log(company)
         leetcode[company] = []
     } else {
-
         // console.log(arrayOfLines[i].replace(/\s\s+/g, ' ').split(" "))
         // leetcode[company].push(arrayOfLines[i].replace(/\s\s+/g, ' ').split(" "))
         leetcode[company].push(arrayOfLines[i].split("        "))
@@ -39,12 +37,13 @@ for (var key in leetcode) {
         else dic[value[index][1]] = 1
     }
 }
-// console.log(dic)
+console.log(dic)
 
 // Create items array
 var items = Object.keys(dic).map(function(key) {
     return [key, dic[key]];
 });
+// console.log(items)
 
 // Sort the array based on the second element
 items.sort(function(first, second) {
@@ -54,7 +53,7 @@ items.sort(function(first, second) {
 });
 
 // Create a new array with only the first 5 items
-console.log(items.slice(0, 5));
+// console.log(items.slice(0, 5));
 // console.log(items);
 // console.log(leetcode)
 // console.log(dic)
@@ -87,7 +86,10 @@ for (q = 0; q < items.length; ++q) {
 }
 
 // var result = JSON.stringify(result)
-console.log(result)
+// for (var key in result) {
+//         result[key] = result[key].slice(0,2);
+//     }
+// console.log(result)
 
 
 var fs = require('fs');
