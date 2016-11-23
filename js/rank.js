@@ -20,6 +20,7 @@ for (i = 0; i < arrayOfLines.length; i++) {
         // console.log(arrayOfLines[i].replace(/\s\s+/g, ' ').split(" "))
         // leetcode[company].push(arrayOfLines[i].replace(/\s\s+/g, ' ').split(" "))
         leetcode[company].push(arrayOfLines[i].split("        "))
+        console.log(arrayOfLines[i].split("        ").length);
     }
 }
 
