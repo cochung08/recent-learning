@@ -1,0 +1,1 @@
+gcc -o ServerDT rdict_svc.c rdict_sif.c rdict_srp.c rdict_xdr.c -lpthread -lnsl

@@ -1,0 +1,2 @@
+service portmap restart
+./ServerDT
