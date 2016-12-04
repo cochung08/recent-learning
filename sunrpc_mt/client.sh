@@ -1,0 +1,1 @@
+gcc -o CientDT rdict_client.c rdict_clnt.c rdict_xdr.c -lnsl
