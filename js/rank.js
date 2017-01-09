@@ -11,7 +11,8 @@ var company = ""
 for (i = 0; i < arrayOfLines.length; i++) {
     arrayOfLines[i] =
         arrayOfLines[i].trim()
-        // console.log('!'+arrayOfLines[i]+'!',arrayOfLines[i][0].match(/[a-zA-Z]/),"\n");
+        console.log('!'+arrayOfLines[i]+'!',arrayOfLines[i][0].match(/[a-zA-Z]/),"\n");
+        // console.log(arrayOfLines)
     if (arrayOfLines[i][0].match(/[a-zA-Z]/)) {
         company = arrayOfLines[i]
             // console.log(company)

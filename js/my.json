@@ -1,20 +1,4 @@
 {
-    "Two Sum": [
-        12,
-        "Easy",
-        "LinkedIn(39)",
-        "Uber(42)",
-        "Airbnb(20)",
-        "Facebook(79)",
-        "Amazon(41)",
-        "Microsoft(77)",
-        "Apple(28)",
-        "Yahoo(11)",
-        "Dropbox(7)",
-        "Bloomberg(57)",
-        "Yelp(12)",
-        "Adobe(12)"
-    ],
     "Reverse Linked List": [
         12,
         "Easy",
@@ -31,6 +15,21 @@
         "Yelp(12)",
         "Adobe(12)"
     ],
+    "Two Sum": [
+        11,
+        "Easy",
+        "LinkedIn(39)",
+        "Uber(42)",
+        "Airbnb(20)",
+        "Facebook(79)",
+        "Amazon(41)",
+        "Microsoft(77)",
+        "Apple(28)",
+        "Yahoo(11)",
+        "Dropbox(7)",
+        "Bloomberg(57)",
+        "Yelp(12)"
+    ],
     "LRU Cache": [
         11,
         "Hard",
@@ -45,6 +44,18 @@
         "Yahoo(11)",
         "Bloomberg(57)",
         "Palantir(7)"
+    ],
+    "Merge k Sorted Lists": [
+        8,
+        "Hard",
+        "LinkedIn(39)",
+        "Google(90)",
+        "Uber(42)",
+        "Airbnb(20)",
+        "Facebook(79)",
+        "Twitter(21)",
+        "Amazon(41)",
+        "Microsoft(77)"
     ],
     "Valid Parentheses": [
         8,
@@ -70,17 +81,27 @@
         "Yahoo(11)",
         "Bloomberg(57)"
     ],
-    "Merge k Sorted Lists": [
-        8,
+    "Median of Two Sorted Arrays": [
+        7,
         "Hard",
-        "LinkedIn(39)",
+        "Google(90)",
+        "Zenefit(21)",
+        "Microsoft(77)",
+        "Apple(28)",
+        "Yahoo(11)",
+        "Dropbox(7)",
+        "Adobe(12)"
+    ],
+    "Insert Delete GetRandom O(1)": [
+        7,
+        "Hard",
         "Google(90)",
         "Uber(42)",
-        "Airbnb(20)",
         "Facebook(79)",
         "Twitter(21)",
         "Amazon(41)",
-        "Microsoft(77)"
+        "Yelp(12)",
+        "PocketGems"
     ],
     "Merge Intervals": [
         7,
@@ -93,26 +114,16 @@
         "Bloomberg(57)",
         "Yelp(12)"
     ],
-    "Median of Two Sorted Arrays": [
+    "Word Break": [
         7,
-        "Hard",
+        "Medium",
         "Google(90)",
-        "Zenefit(21)",
-        "Microsoft(77)",
-        "Apple(28)",
-        "Yahoo(11)",
-        "Dropbox(7)",
-        "Adobe(12)"
-    ],
-    "Binary Tree Level Order Traversal": [
-        6,
-        "Easy",
-        "LinkedIn(39)",
+        "Uber(42)",
         "Facebook(79)",
         "Amazon(41)",
-        "Microsoft(77)",
-        "Apple(28)",
-        "Bloomberg(57)"
+        "Yahoo(11)",
+        "Bloomberg(57)",
+        "PocketGems"
     ],
     "Implement Trie (Prefix Tree)": [
         6,
@@ -124,25 +135,15 @@
         "Microsoft(77)",
         "Bloomberg(57)"
     ],
-    "Word Break": [
+    "Kth Largest Element in an Array": [
         6,
         "Medium",
-        "Google(90)",
-        "Uber(42)",
         "Facebook(79)",
         "Amazon(41)",
-        "Yahoo(11)",
-        "Bloomberg(57)"
-    ],
-    "Trapping Rain Water": [
-        6,
-        "Hard",
-        "Google(90)",
-        "Twitter(21)",
-        "Zenefit(21)",
-        "Amazon(41)",
+        "Microsoft(77)",
         "Apple(28)",
-        "Bloomberg(57)"
+        "Bloomberg(57)",
+        "PocketGems"
     ],
     "Min Stack": [
         6,
@@ -154,140 +155,35 @@
         "Snapchat(15)",
         "Bloomberg(57)"
     ],
-    "The Skyline Problem": [
-        5,
-        "Hard",
-        "Google(90)",
-        "Facebook(79)",
-        "Twitter(21)",
-        "Microsoft(77)",
-        "Yelp(12)"
-    ],
-    "Reverse Words in a String": [
-        5,
-        "Medium",
-        "Microsoft(77)",
-        "Snapchat(15)",
-        "Apple(28)",
-        "Bloomberg(57)",
-        "Yelp(12)"
-    ],
-    "Kth Largest Element in an Array": [
-        5,
-        "Medium",
+    "Binary Tree Level Order Traversal": [
+        6,
+        "Easy",
+        "LinkedIn(39)",
         "Facebook(79)",
         "Amazon(41)",
         "Microsoft(77)",
         "Apple(28)",
         "Bloomberg(57)"
-    ],
-    "Number of Islands": [
-        5,
-        "Medium",
-        "Google(90)",
-        "Facebook(79)",
-        "Zenefit(21)",
-        "Amazon(41)",
-        "Microsoft(77)"
-    ],
-    "3Sum": [
-        5,
-        "Medium",
-        "Facebook(79)",
-        "Amazon(41)",
-        "Microsoft(77)",
-        "Bloomberg(57)",
-        "Adobe(12)"
-    ],
-    "Word Ladder": [
-        5,
-        "Medium",
-        "LinkedIn(39)",
-        "Facebook(79)",
-        "Amazon(41)",
-        "Snapchat(15)",
-        "Yelp(12)"
-    ],
-    "Add Two Numbers": [
-        5,
-        "Medium",
-        "Airbnb(20)",
-        "Amazon(41)",
-        "Microsoft(77)",
-        "Bloomberg(57)",
-        "Adobe(12)"
-    ],
-    "Word Break II": [
-        5,
-        "Hard",
-        "Google(90)",
-        "Uber(42)",
-        "Twitter(21)",
-        "Snapchat(15)",
-        "Dropbox(7)"
-    ],
-    "Roman to Integer": [
-        5,
-        "Easy",
-        "Uber(42)",
-        "Facebook(79)",
-        "Microsoft(77)",
-        "Yahoo(11)",
-        "Bloomberg(57)"
-    ],
-    "Search in Rotated Sorted Array": [
-        5,
-        "Hard",
-        "LinkedIn(39)",
-        "Uber(42)",
-        "Facebook(79)",
-        "Microsoft(77)",
-        "Bloomberg(57)"
-    ],
-    "Best Time to Buy and Sell Stock": [
-        5,
-        "Easy",
-        "Uber(42)",
-        "Facebook(79)",
-        "Amazon(41)",
-        "Microsoft(77)",
-        "Bloomberg(57)"
-    ],
-    "Letter Combinations of a Phone Number": [
-        5,
-        "Medium",
-        "Google(90)",
-        "Uber(42)",
-        "Facebook(79)",
-        "Amazon(41)",
-        "Dropbox(7)"
-    ],
-    "Regular Expression Matching": [
-        5,
-        "Hard",
-        "Google(90)",
-        "Uber(42)",
-        "Airbnb(20)",
-        "Facebook(79)",
-        "Twitter(21)"
-    ],
-    "Group Anagrams": [
-        5,
-        "Medium",
-        "Uber(42)",
-        "Facebook(79)",
-        "Amazon(41)",
-        "Bloomberg(57)",
-        "Yelp(12)"
     ],
     "Alien Dictionary": [
-        5,
+        6,
         "Hard",
         "Google(90)",
         "Airbnb(20)",
         "Facebook(79)",
         "Twitter(21)",
-        "Snapchat(15)"
+        "Snapchat(15)",
+        "PocketGems"
+    ],
+    "Trapping Rain Water": [
+        6,
+        "Hard",
+        "Google(90)",
+        "Twitter(21)",
+        "Zenefit(21)",
+        "Amazon(41)",
+        "Apple(28)",
+        "Bloomberg(57)"
     ],
     "Lowest Common Ancestor of a Binary Tree": [
         5,
@@ -307,10 +203,191 @@
         "Microsoft(77)",
         "Apple(28)"
     ],
-    "Validate Binary Search Tree": [
-        4,
+    "Search in Rotated Sorted Array": [
+        5,
+        "Hard",
+        "LinkedIn(39)",
+        "Uber(42)",
+        "Facebook(79)",
+        "Microsoft(77)",
+        "Bloomberg(57)"
+    ],
+    "3Sum": [
+        5,
         "Medium",
         "Facebook(79)",
+        "Amazon(41)",
+        "Microsoft(77)",
+        "Bloomberg(57)",
+        "Adobe(12)"
+    ],
+    "Word Ladder": [
+        5,
+        "Medium",
+        "LinkedIn(39)",
+        "Facebook(79)",
+        "Amazon(41)",
+        "Snapchat(15)",
+        "Yelp(12)"
+    ],
+    "Reverse Words in a String": [
+        5,
+        "Medium",
+        "Microsoft(77)",
+        "Snapchat(15)",
+        "Apple(28)",
+        "Bloomberg(57)",
+        "Yelp(12)"
+    ],
+    "Regular Expression Matching": [
+        5,
+        "Hard",
+        "Google(90)",
+        "Uber(42)",
+        "Airbnb(20)",
+        "Facebook(79)",
+        "Twitter(21)"
+    ],
+    "Add Two Numbers": [
+        5,
+        "Medium",
+        "Airbnb(20)",
+        "Amazon(41)",
+        "Microsoft(77)",
+        "Bloomberg(57)",
+        "Adobe(12)"
+    ],
+    "Best Time to Buy and Sell Stock": [
+        5,
+        "Easy",
+        "Uber(42)",
+        "Facebook(79)",
+        "Amazon(41)",
+        "Microsoft(77)",
+        "Bloomberg(57)"
+    ],
+    "Number of Islands": [
+        5,
+        "Medium",
+        "Google(90)",
+        "Facebook(79)",
+        "Zenefit(21)",
+        "Amazon(41)",
+        "Microsoft(77)"
+    ],
+    "Word Break II": [
+        5,
+        "Hard",
+        "Google(90)",
+        "Uber(42)",
+        "Twitter(21)",
+        "Snapchat(15)",
+        "Dropbox(7)"
+    ],
+    "Roman to Integer": [
+        5,
+        "Easy",
+        "Uber(42)",
+        "Facebook(79)",
+        "Microsoft(77)",
+        "Yahoo(11)",
+        "Bloomberg(57)"
+    ],
+    "Letter Combinations of a Phone Number": [
+        5,
+        "Medium",
+        "Google(90)",
+        "Uber(42)",
+        "Facebook(79)",
+        "Amazon(41)",
+        "Dropbox(7)"
+    ],
+    "Group Anagrams": [
+        5,
+        "Medium",
+        "Uber(42)",
+        "Facebook(79)",
+        "Amazon(41)",
+        "Bloomberg(57)",
+        "Yelp(12)"
+    ],
+    "The Skyline Problem": [
+        5,
+        "Hard",
+        "Google(90)",
+        "Facebook(79)",
+        "Twitter(21)",
+        "Microsoft(77)",
+        "Yelp(12)"
+    ],
+    "Merge Two Sorted Lists": [
+        4,
+        "Easy",
+        "LinkedIn(39)",
+        "Amazon(41)",
+        "Microsoft(77)",
+        "Apple(28)"
+    ],
+    "Wildcard Matching": [
+        4,
+        "Hard",
+        "Google(90)",
+        "Facebook(79)",
+        "Twitter(21)",
+        "Snapchat(15)"
+    ],
+    "Copy List with Random Pointer": [
+        4,
+        "Hard",
+        "Uber(42)",
+        "Amazon(41)",
+        "Microsoft(77)",
+        "Bloomberg(57)"
+    ],
+    "Clone Graph": [
+        4,
+        "Medium",
+        "Google(90)",
+        "Uber(42)",
+        "Facebook(79)",
+        "PocketGems"
+    ],
+    "Valid Palindrome": [
+        4,
+        "Easy",
+        "Uber(42)",
+        "Facebook(79)",
+        "Zenefit(21)",
+        "Microsoft(77)"
+    ],
+    "One Edit Distance": [
+        4,
+        "Medium",
+        "Uber(42)",
+        "Facebook(79)",
+        "Twitter(21)",
+        "Snapchat(15)"
+    ],
+    "Binary Search Tree Iterator": [
+        4,
+        "Medium",
+        "LinkedIn(39)",
+        "Google(90)",
+        "Facebook(79)",
+        "Microsoft(77)"
+    ],
+    "String to Integer (atoi)": [
+        4,
+        "Easy",
+        "Uber(42)",
+        "Amazon(41)",
+        "Microsoft(77)",
+        "Bloomberg(57)"
+    ],
+    "Intersection of Two Linked Lists": [
+        4,
+        "Easy",
+        "Airbnb(20)",
         "Amazon(41)",
         "Microsoft(77)",
         "Bloomberg(57)"
@@ -323,13 +400,21 @@
         "Facebook(79)",
         "Bloomberg(57)"
     ],
-    "Binary Search Tree Iterator": [
+    "Minimum Window Substring": [
+        4,
+        "Hard",
+        "LinkedIn(39)",
+        "Uber(42)",
+        "Facebook(79)",
+        "Snapchat(15)"
+    ],
+    "Validate Binary Search Tree": [
         4,
         "Medium",
-        "LinkedIn(39)",
-        "Google(90)",
         "Facebook(79)",
-        "Microsoft(77)"
+        "Amazon(41)",
+        "Microsoft(77)",
+        "Bloomberg(57)"
     ],
     "Maximum Depth of Binary Tree": [
         4,
@@ -338,6 +423,30 @@
         "Uber(42)",
         "Apple(28)",
         "Yahoo(11)"
+    ],
+    "Implement strStr()": [
+        4,
+        "Easy",
+        "Facebook(79)",
+        "Microsoft(77)",
+        "Apple(28)",
+        "PocketGems"
+    ],
+    "Lowest Common Ancestor of a Binary Search Tree": [
+        4,
+        "Easy",
+        "Facebook(79)",
+        "Twitter(21)",
+        "Amazon(41)",
+        "Microsoft(77)"
+    ],
+    "Linked List Cycle": [
+        4,
+        "Easy",
+        "Amazon(41)",
+        "Microsoft(77)",
+        "Yahoo(11)",
+        "Bloomberg(57)"
     ],
     "Longest Substring Without Repeating Characters": [
         4,
@@ -355,83 +464,68 @@
         "Twitter(21)",
         "Zenefit(21)"
     ],
-    "Lowest Common Ancestor of a Binary Search Tree": [
-        4,
-        "Easy",
-        "Facebook(79)",
-        "Twitter(21)",
-        "Amazon(41)",
-        "Microsoft(77)"
-    ],
-    "Linked List Cycle": [
-        4,
+    "Meeting Rooms II": [
+        3,
         "Medium",
-        "Amazon(41)",
-        "Microsoft(77)",
-        "Yahoo(11)",
-        "Bloomberg(57)"
-    ],
-    "String to Integer (atoi)": [
-        4,
-        "Easy",
-        "Uber(42)",
-        "Amazon(41)",
-        "Microsoft(77)",
-        "Bloomberg(57)"
-    ],
-    "Merge Two Sorted Lists": [
-        4,
-        "Easy",
-        "LinkedIn(39)",
-        "Amazon(41)",
-        "Microsoft(77)",
-        "Apple(28)"
-    ],
-    "Valid Palindrome": [
-        4,
-        "Easy",
-        "Uber(42)",
+        "Google(90)",
         "Facebook(79)",
-        "Zenefit(21)",
-        "Microsoft(77)"
-    ],
-    "Copy List with Random Pointer": [
-        4,
-        "Hard",
-        "Uber(42)",
-        "Amazon(41)",
-        "Microsoft(77)",
-        "Bloomberg(57)"
-    ],
-    "One Edit Distance": [
-        4,
-        "Medium",
-        "Uber(42)",
-        "Facebook(79)",
-        "Twitter(21)",
         "Snapchat(15)"
     ],
-    "Intersection of Two Linked Lists": [
-        4,
-        "Easy",
-        "Airbnb(20)",
-        "Amazon(41)",
-        "Microsoft(77)",
-        "Bloomberg(57)"
-    ],
-    "Happy Number": [
-        3,
-        "Easy",
-        "Uber(42)",
-        "Airbnb(20)",
-        "Twitter(21)"
-    ],
-    "Binary Tree Zigzag Level Order Traversal": [
+    "Maximum Subarray": [
         3,
         "Medium",
         "LinkedIn(39)",
         "Microsoft(77)",
         "Bloomberg(57)"
+    ],
+    "Sliding Window Maximum": [
+        3,
+        "Hard",
+        "Google(90)",
+        "Zenefit(21)",
+        "Amazon(41)"
+    ],
+    "Graph Valid Tree": [
+        3,
+        "Medium",
+        "Google(90)",
+        "Facebook(79)",
+        "Zenefit(21)"
+    ],
+    "Binary Tree Paths": [
+        3,
+        "Easy",
+        "Google(90)",
+        "Facebook(79)",
+        "Apple(28)"
+    ],
+    "Combination Sum IV": [
+        3,
+        "Medium",
+        "Google(90)",
+        "Facebook(79)",
+        "Snapchat(15)"
+    ],
+    "Binary Tree Vertical Order Traversal": [
+        3,
+        "Medium",
+        "Google(90)",
+        "Facebook(79)",
+        "Snapchat(15)"
+    ],
+    "Valid Sudoku": [
+        3,
+        "Easy",
+        "Uber(42)",
+        "Snapchat(15)",
+        "Apple(28)"
+    ],
+    "Reverse Words in a String II": [
+        3,
+        "Medium",
+        "Uber(42)",
+        "Amazon(41)",
+        "Microsoft(77)"
     ],
     "Symmetric Tree": [
         3,
@@ -447,89 +541,40 @@
         "Airbnb(20)",
         "Microsoft(77)"
     ],
-    "Minimum Window Substring": [
-        3,
-        "Hard",
-        "LinkedIn(39)",
-        "Uber(42)",
-        "Facebook(79)"
-    ],
-    "Kth Smallest Element in a BST": [
-        3,
-        "Medium",
-        "Google(90)",
-        "Uber(42)",
-        "Bloomberg(57)"
-    ],
-    "Sliding Window Maximum": [
-        3,
-        "Hard",
-        "Google(90)",
-        "Zenefit(21)",
-        "Amazon(41)"
-    ],
-    "Search a 2D Matrix II": [
-        3,
-        "Medium",
-        "Google(90)",
-        "Amazon(41)",
-        "Apple(28)"
-    ],
-    "Course Schedule": [
-        3,
-        "Medium",
-        "Zenefit(21)",
-        "Apple(28)",
-        "Yelp(12)"
-    ],
-    "Delete Node in a Linked List": [
-        3,
-        "Easy",
-        "Microsoft(77)",
-        "Apple(28)",
-        "Adobe(12)"
-    ],
-    "Generate Parentheses": [
-        3,
-        "Medium",
-        "Google(90)",
-        "Uber(42)",
-        "Zenefit(21)"
-    ],
-    "Binary Tree Paths": [
-        3,
-        "Easy",
-        "Google(90)",
-        "Facebook(79)",
-        "Apple(28)"
-    ],
-    "Graph Valid Tree": [
-        3,
-        "Medium",
-        "Google(90)",
-        "Facebook(79)",
-        "Zenefit(21)"
-    ],
-    "Excel Sheet Column Title": [
-        3,
-        "Easy",
-        "Facebook(79)",
-        "Zenefit(21)",
-        "Microsoft(77)"
-    ],
-    "Populating Next Right Pointers in Each Node II": [
-        3,
-        "Hard",
-        "Facebook(79)",
-        "Microsoft(77)",
-        "Bloomberg(57)"
-    ],
     "Closest Binary Search Tree Value": [
         3,
         "Easy",
         "Google(90)",
         "Microsoft(77)",
         "Snapchat(15)"
+    ],
+    "Decode Ways": [
+        3,
+        "Medium",
+        "Uber(42)",
+        "Facebook(79)",
+        "Microsoft(77)"
+    ],
+    "Swap Nodes in Pairs": [
+        3,
+        "Easy",
+        "Uber(42)",
+        "Microsoft(77)",
+        "Bloomberg(57)"
+    ],
+    "Happy Number": [
+        3,
+        "Easy",
+        "Uber(42)",
+        "Airbnb(20)",
+        "Twitter(21)"
+    ],
+    "Valid Anagram": [
+        3,
+        "Easy",
+        "Uber(42)",
+        "Amazon(41)",
+        "Yelp(12)"
     ],
     "H-Index": [
         3,
@@ -538,25 +583,39 @@
         "Facebook(79)",
         "Bloomberg(57)"
     ],
-    "Wildcard Matching": [
+    "Kth Smallest Element in a BST": [
+        3,
+        "Medium",
+        "Google(90)",
+        "Uber(42)",
+        "Bloomberg(57)"
+    ],
+    "Subsets": [
+        3,
+        "Medium",
+        "Uber(42)",
+        "Facebook(79)",
+        "Amazon(41)"
+    ],
+    "Text Justification": [
+        3,
+        "Hard",
+        "LinkedIn(39)",
+        "Airbnb(20)",
+        "Facebook(79)"
+    ],
+    "Delete Node in a Linked List": [
+        3,
+        "Easy",
+        "Microsoft(77)",
+        "Apple(28)",
+        "Adobe(12)"
+    ],
+    "Read N Characters Given Read4 II - Call multiple times": [
         3,
         "Hard",
         "Google(90)",
         "Facebook(79)",
-        "Snapchat(15)"
-    ],
-    "Peeking Iterator": [
-        3,
-        "Medium",
-        "Google(90)",
-        "Apple(28)",
-        "Yahoo(11)"
-    ],
-    "Merge Sorted Array": [
-        3,
-        "Easy",
-        "Facebook(79)",
-        "Microsoft(77)",
         "Bloomberg(57)"
     ],
     "Game of Life": [
@@ -566,16 +625,79 @@
         "Snapchat(15)",
         "Dropbox(7)"
     ],
-    "Binary Tree Vertical Order Traversal": [
+    "Contains Duplicate": [
+        3,
+        "Easy",
+        "Airbnb(20)",
+        "Yahoo(11)",
+        "Palantir(7)"
+    ],
+    "Search a 2D Matrix II": [
         3,
         "Medium",
         "Google(90)",
+        "Amazon(41)",
+        "Apple(28)"
+    ],
+    "Maximal Square": [
+        3,
+        "Medium",
+        "Airbnb(20)",
         "Facebook(79)",
-        "Snapchat(15)"
+        "Apple(28)"
+    ],
+    "Max Points on a Line": [
+        3,
+        "Hard",
+        "LinkedIn(39)",
+        "Twitter(21)",
+        "Apple(28)"
+    ],
+    "Inorder Successor in BST": [
+        3,
+        "Medium",
+        "Facebook(79)",
+        "Microsoft(77)",
+        "PocketGems"
+    ],
+    "Sort Colors": [
+        3,
+        "Medium",
+        "Facebook(79)",
+        "Microsoft(77)",
+        "PocketGems"
+    ],
+    "Peeking Iterator": [
+        3,
+        "Medium",
+        "Google(90)",
+        "Apple(28)",
+        "Yahoo(11)"
     ],
     "Word Search": [
         3,
         "Medium",
+        "Facebook(79)",
+        "Microsoft(77)",
+        "Bloomberg(57)"
+    ],
+    "Binary Tree Zigzag Level Order Traversal": [
+        3,
+        "Medium",
+        "LinkedIn(39)",
+        "Microsoft(77)",
+        "Bloomberg(57)"
+    ],
+    "Spiral Matrix": [
+        3,
+        "Medium",
+        "Google(90)",
+        "Uber(42)",
+        "Microsoft(77)"
+    ],
+    "Merge Sorted Array": [
+        3,
+        "Easy",
         "Facebook(79)",
         "Microsoft(77)",
         "Bloomberg(57)"
@@ -587,80 +709,17 @@
         "Apple(28)",
         "Bloomberg(57)"
     ],
-    "Spiral Matrix": [
+    "Flatten Nested List Iterator": [
         3,
         "Medium",
         "Google(90)",
-        "Uber(42)",
-        "Microsoft(77)"
-    ],
-    "Longest Palindromic Substring": [
-        3,
-        "Medium",
-        "Amazon(41)",
-        "Microsoft(77)",
-        "Bloomberg(57)"
-    ],
-    "Swap Nodes in Pairs": [
-        3,
-        "Easy",
-        "Uber(42)",
-        "Microsoft(77)",
-        "Bloomberg(57)"
-    ],
-    "Valid Sudoku": [
-        3,
-        "Easy",
-        "Uber(42)",
-        "Snapchat(15)",
-        "Apple(28)"
-    ],
-    "Implement strStr()": [
-        3,
-        "Easy",
         "Facebook(79)",
-        "Microsoft(77)",
-        "Apple(28)"
+        "Twitter(21)"
     ],
-    "Subsets": [
-        3,
-        "Medium",
-        "Uber(42)",
-        "Facebook(79)",
-        "Amazon(41)"
-    ],
-    "Decode Ways": [
-        3,
-        "Medium",
-        "Uber(42)",
-        "Facebook(79)",
-        "Microsoft(77)"
-    ],
-    "Insert Interval": [
+    "Populating Next Right Pointers in Each Node II": [
         3,
         "Hard",
-        "LinkedIn(39)",
-        "Google(90)",
-        "Facebook(79)"
-    ],
-    "Clone Graph": [
-        3,
-        "Medium",
-        "Google(90)",
-        "Uber(42)",
-        "Facebook(79)"
-    ],
-    "Max Points on a Line": [
-        3,
-        "Hard",
-        "LinkedIn(39)",
-        "Twitter(21)",
-        "Apple(28)"
-    ],
-    "Maximum Subarray": [
-        3,
-        "Medium",
-        "LinkedIn(39)",
+        "Facebook(79)",
         "Microsoft(77)",
         "Bloomberg(57)"
     ],
@@ -671,39 +730,25 @@
         "Microsoft(77)",
         "Bloomberg(57)"
     ],
-    "Reverse Words in a String II": [
+    "Excel Sheet Column Title": [
         3,
-        "Medium",
-        "Uber(42)",
-        "Amazon(41)",
+        "Easy",
+        "Facebook(79)",
+        "Zenefit(21)",
         "Microsoft(77)"
     ],
-    "Maximal Square": [
+    "Course Schedule": [
         3,
         "Medium",
-        "Airbnb(20)",
-        "Facebook(79)",
-        "Apple(28)"
-    ],
-    "Valid Anagram": [
-        3,
-        "Easy",
-        "Uber(42)",
-        "Amazon(41)",
+        "Zenefit(21)",
+        "Apple(28)",
         "Yelp(12)"
     ],
-    "Contains Duplicate": [
+    "First Unique Character in a String": [
         3,
         "Easy",
-        "Airbnb(20)",
-        "Yahoo(11)",
-        "Palantir(7)"
-    ],
-    "Read N Characters Given Read4 II - Call multiple times": [
-        3,
-        "Hard",
-        "Google(90)",
-        "Facebook(79)",
+        "Amazon(41)",
+        "Microsoft(77)",
         "Bloomberg(57)"
     ],
     "Rotate Image": [
@@ -713,185 +758,39 @@
         "Microsoft(77)",
         "Apple(28)"
     ],
-    "Meeting Rooms II": [
-        2,
+    "Longest Palindromic Substring": [
+        3,
         "Medium",
-        "Google(90)",
-        "Facebook(79)"
-    ],
-    "Single Number": [
-        2,
-        "Medium",
-        "Airbnb(20)",
-        "Palantir(7)"
-    ],
-    "Reverse Bits": [
-        2,
-        "Easy",
-        "Airbnb(20)",
-        "Apple(28)"
-    ],
-    "Word Pattern": [
-        2,
-        "Easy",
-        "Uber(42)",
-        "Dropbox(7)"
-    ],
-    "Contains Duplicate II": [
-        2,
-        "Easy",
-        "Airbnb(20)",
-        "Palantir(7)"
-    ],
-    "Contains Duplicate III": [
-        2,
-        "Medium",
-        "Airbnb(20)",
-        "Palantir(7)"
-    ],
-    "Factor Combinations": [
-        2,
-        "Medium",
-        "LinkedIn(39)",
-        "Uber(42)"
-    ],
-    "Permutations II": [
-        2,
-        "Medium",
-        "LinkedIn(39)",
-        "Microsoft(77)"
-    ],
-    "Reverse Nodes in k-Group": [
-        2,
-        "Hard",
-        "Facebook(79)",
-        "Microsoft(77)"
-    ],
-    "Excel Sheet Column Number": [
-        2,
-        "Easy",
-        "Uber(42)",
-        "Microsoft(77)"
-    ],
-    "Combination Sum": [
-        2,
-        "Medium",
-        "Uber(42)",
-        "Snapchat(15)"
-    ],
-    "Multiply Strings": [
-        2,
-        "Medium",
-        "Facebook(79)",
-        "Twitter(21)"
-    ],
-    "Palindrome Pairs": [
-        2,
-        "Hard",
-        "Google(90)",
-        "Airbnb(20)"
-    ],
-    "Simplify Path": [
-        2,
-        "Medium",
-        "Facebook(79)",
-        "Microsoft(77)"
-    ],
-    "Sort Colors": [
-        2,
-        "Medium",
-        "Facebook(79)",
-        "Microsoft(77)"
-    ],
-    "Shortest Distance from All Buildings": [
-        2,
-        "Hard",
-        "Google(90)",
-        "Zenefit(21)"
-    ],
-    "Walls and Gates": [
-        2,
-        "Medium",
-        "Google(90)",
-        "Facebook(79)"
-    ],
-    "Expression Add Operators": [
-        2,
-        "Hard",
-        "Google(90)",
-        "Facebook(79)"
-    ],
-    "Text Justification": [
-        2,
-        "Hard",
-        "LinkedIn(39)",
-        "Airbnb(20)"
-    ],
-    "Palindrome Permutation": [
-        2,
-        "Easy",
-        "Google(90)",
-        "Uber(42)"
-    ],
-    "Course Schedule II": [
-        2,
-        "Medium",
-        "Facebook(79)",
-        "Zenefit(21)"
-    ],
-    "Permutations": [
-        2,
-        "Medium",
-        "LinkedIn(39)",
-        "Microsoft(77)"
-    ],
-    "Palindrome Linked List": [
-        2,
-        "Easy",
-        "Facebook(79)",
-        "Amazon(41)"
-    ],
-    "Word Pattern II": [
-        2,
-        "Hard",
-        "Uber(42)",
-        "Dropbox(7)"
-    ],
-    "Integer to English Words": [
-        2,
-        "Hard",
-        "Facebook(79)",
-        "Microsoft(77)"
-    ],
-    "Move Zeroes": [
-        2,
-        "Easy",
-        "Facebook(79)",
+        "Amazon(41)",
+        "Microsoft(77)",
         "Bloomberg(57)"
     ],
-    "Inorder Successor in BST": [
+    "Palindrome Permutation": [
+        3,
+        "Easy",
+        "Google(90)",
+        "Uber(42)",
+        "Bloomberg(57)"
+    ],
+    "Generate Parentheses": [
+        3,
+        "Medium",
+        "Google(90)",
+        "Uber(42)",
+        "Zenefit(21)"
+    ],
+    "Insert Interval": [
+        3,
+        "Hard",
+        "LinkedIn(39)",
+        "Google(90)",
+        "Facebook(79)"
+    ],
+    "Number of Connected Components in an Undirected Graph": [
         2,
         "Medium",
-        "Facebook(79)",
-        "Microsoft(77)"
-    ],
-    "Maximum Size Subarray Sum Equals k": [
-        2,
-        "Easy",
-        "Facebook(79)",
-        "Palantir(7)"
-    ],
-    "Pascal's Triangle": [
-        2,
-        "Easy",
-        "Twitter(21)",
-        "Apple(28)"
-    ],
-    "Majority Element": [
-        2,
-        "Easy",
-        "Zenefit(21)",
-        "Adobe(12)"
+        "Google(90)",
+        "Twitter(21)"
     ],
     "Group Shifted Strings": [
         2,
@@ -905,23 +804,41 @@
         "Google(90)",
         "Microsoft(77)"
     ],
-    "Longest Consecutive Sequence": [
+    "Excel Sheet Column Number": [
+        2,
+        "Easy",
+        "Uber(42)",
+        "Microsoft(77)"
+    ],
+    "Find K Pairs with Smallest Sums": [
+        2,
+        "Medium",
+        "Google(90)",
+        "Uber(42)"
+    ],
+    "Sort Characters By Frequency": [
+        2,
+        "Medium",
+        "Google(90)",
+        "Amazon(41)"
+    ],
+    "Expression Add Operators": [
         2,
         "Hard",
         "Google(90)",
         "Facebook(79)"
     ],
-    "House Robber": [
+    "Contains Duplicate II": [
         2,
         "Easy",
-        "LinkedIn(39)",
-        "Airbnb(20)"
+        "Airbnb(20)",
+        "Palantir(7)"
     ],
-    "Word Ladder II": [
+    "Single Number": [
         2,
-        "Hard",
-        "Amazon(41)",
-        "Yelp(12)"
+        "Easy",
+        "Airbnb(20)",
+        "Palantir(7)"
     ],
     "Sparse Matrix Multiplication": [
         2,
@@ -929,21 +846,255 @@
         "LinkedIn(39)",
         "Facebook(79)"
     ],
+    "Reverse Bits": [
+        2,
+        "Easy",
+        "Airbnb(20)",
+        "Apple(28)"
+    ],
+    "Shortest Palindrome": [
+        2,
+        "Hard",
+        "Google(90)",
+        "PocketGems"
+    ],
+    "Add Strings": [
+        2,
+        "Easy",
+        "Google(90)",
+        "Airbnb(20)"
+    ],
+    "Contains Duplicate III": [
+        2,
+        "Medium",
+        "Airbnb(20)",
+        "Palantir(7)"
+    ],
+    "Kth Smallest Element in a Sorted Matrix": [
+        2,
+        "Medium",
+        "Google(90)",
+        "Twitter(21)"
+    ],
+    "Move Zeroes": [
+        2,
+        "Easy",
+        "Facebook(79)",
+        "Bloomberg(57)"
+    ],
+    "Maximum Size Subarray Sum Equals k": [
+        2,
+        "Medium",
+        "Facebook(79)",
+        "Palantir(7)"
+    ],
+    "Integer to English Words": [
+        2,
+        "Hard",
+        "Facebook(79)",
+        "Microsoft(77)"
+    ],
+    "Design Hit Counter": [
+        2,
+        "Medium",
+        "Google(90)",
+        "Dropbox(7)"
+    ],
+    "Find the Celebrity": [
+        2,
+        "Medium",
+        "LinkedIn(39)",
+        "Facebook(79)"
+    ],
+    "Factor Combinations": [
+        2,
+        "Medium",
+        "LinkedIn(39)",
+        "Uber(42)"
+    ],
+    "Design Tic-Tac-Toe": [
+        2,
+        "Medium",
+        "Google(90)",
+        "Microsoft(77)"
+    ],
+    "Multiply Strings": [
+        2,
+        "Medium",
+        "Facebook(79)",
+        "Twitter(21)"
+    ],
+    "Repeated Substring Pattern": [
+        2,
+        "Easy",
+        "Google(90)",
+        "Amazon(41)"
+    ],
+    "Simplify Path": [
+        2,
+        "Medium",
+        "Facebook(79)",
+        "Microsoft(77)"
+    ],
+    "Burst Balloons": [
+        2,
+        "Hard",
+        "Google(90)",
+        "Snapchat(15)"
+    ],
+    "LFU Cache": [
+        2,
+        "Hard",
+        "Google(90)",
+        "Amazon(41)"
+    ],
+    "Word Pattern II": [
+        2,
+        "Hard",
+        "Uber(42)",
+        "Dropbox(7)"
+    ],
+    "Walls and Gates": [
+        2,
+        "Medium",
+        "Google(90)",
+        "Facebook(79)"
+    ],
+    "Top K Frequent Elements": [
+        2,
+        "Medium",
+        "Yelp(12)",
+        "PocketGems"
+    ],
+    "Word Pattern": [
+        2,
+        "Easy",
+        "Uber(42)",
+        "Dropbox(7)"
+    ],
+    "Course Schedule II": [
+        2,
+        "Medium",
+        "Facebook(79)",
+        "Zenefit(21)"
+    ],
+    "Palindrome Linked List": [
+        2,
+        "Easy",
+        "Facebook(79)",
+        "Amazon(41)"
+    ],
+    "Reverse Nodes in k-Group": [
+        2,
+        "Hard",
+        "Facebook(79)",
+        "Microsoft(77)"
+    ],
+    "Palindrome Pairs": [
+        2,
+        "Hard",
+        "Google(90)",
+        "Airbnb(20)"
+    ],
+    "Trapping Rain Water II": [
+        2,
+        "Hard",
+        "Google(90)",
+        "Twitter(21)"
+    ],
+    "Design Twitter": [
+        2,
+        "Medium",
+        "Twitter(21)",
+        "Amazon(41)"
+    ],
+    "Pascal's Triangle": [
+        2,
+        "Easy",
+        "Twitter(21)",
+        "Apple(28)"
+    ],
+    "Permutations": [
+        2,
+        "Medium",
+        "LinkedIn(39)",
+        "Microsoft(77)"
+    ],
+    "Majority Element": [
+        2,
+        "Easy",
+        "Zenefit(21)",
+        "Adobe(12)"
+    ],
+    "Permutations II": [
+        2,
+        "Medium",
+        "LinkedIn(39)",
+        "Microsoft(77)"
+    ],
+    "Combination Sum": [
+        2,
+        "Medium",
+        "Uber(42)",
+        "Snapchat(15)"
+    ],
+    "Sudoku Solver": [
+        2,
+        "Hard",
+        "Uber(42)",
+        "Snapchat(15)"
+    ],
+    "Longest Consecutive Sequence": [
+        2,
+        "Hard",
+        "Google(90)",
+        "Facebook(79)"
+    ],
+    "Word Ladder II": [
+        2,
+        "Hard",
+        "Amazon(41)",
+        "Yelp(12)"
+    ],
+    "House Robber": [
+        2,
+        "Easy",
+        "LinkedIn(39)",
+        "Airbnb(20)"
+    ],
+    "Set Matrix Zeroes": [
+        2,
+        "Medium",
+        "Amazon(41)",
+        "Microsoft(77)"
+    ],
     "Count Primes": [
         2,
         "Easy",
         "Amazon(41)",
         "Microsoft(77)"
     ],
-    "Compare Version Numbers": [
+    "Missing Number": [
         2,
-        "Easy",
+        "Medium",
         "Microsoft(77)",
-        "Apple(28)"
+        "Bloomberg(57)"
     ],
-    "Rotate Array": [
+    "Remove K Digits": [
         2,
-        "Easy",
+        "Medium",
+        "Google(90)",
+        "Snapchat(15)"
+    ],
+    "Shortest Distance from All Buildings": [
+        2,
+        "Hard",
+        "Google(90)",
+        "Zenefit(21)"
+    ],
+    "Add Two Numbers II": [
+        2,
+        "Medium",
         "Microsoft(77)",
         "Bloomberg(57)"
     ],
@@ -959,11 +1110,11 @@
         "Microsoft(77)",
         "Bloomberg(57)"
     ],
-    "Find the Celebrity": [
+    "Rotate Array": [
         2,
-        "Medium",
-        "LinkedIn(39)",
-        "Facebook(79)"
+        "Easy",
+        "Microsoft(77)",
+        "Bloomberg(57)"
     ],
     "Add Digits": [
         2,
@@ -971,17 +1122,11 @@
         "Microsoft(77)",
         "Adobe(12)"
     ],
-    "Missing Number": [
-        2,
-        "Medium",
-        "Microsoft(77)",
-        "Bloomberg(57)"
-    ],
-    "Reverse Integer": [
+    "Compare Version Numbers": [
         2,
         "Easy",
-        "Apple(28)",
-        "Bloomberg(57)"
+        "Microsoft(77)",
+        "Apple(28)"
     ],
     "Climbing Stairs": [
         2,
@@ -989,39 +1134,100 @@
         "Apple(28)",
         "Adobe(12)"
     ],
-    "Two Sum III - Data structure design": [
-        1,
+    "Reverse Integer": [
+        2,
         "Easy",
-        "LinkedIn(39)"
+        "Apple(28)",
+        "Bloomberg(57)"
     ],
-    "Isomorphic Strings": [
-        1,
-        "Easy",
-        "LinkedIn(39)"
-    ],
-    "3Sum Smaller": [
+    "Design Phone Directory": [
         1,
         "Medium",
         "Google(90)"
     ],
-    "Longest Substring with At Most Two Distinct Characters": [
+    "optimal Account Balancing": [
         1,
         "Hard",
         "Google(90)"
     ],
-    "Next Permutation": [
+    "Reverse Vowels of a String": [
+        1,
+        "Easy",
+        "Google(90)"
+    ],
+    "Valid Number": [
+        1,
+        "Hard",
+        "LinkedIn(39)"
+    ],
+    "Super Ugly Number": [
         1,
         "Medium",
         "Google(90)"
     ],
-    "Missing Ranges": [
+    "Encode String with Shortest Length": [
+        1,
+        "Hard",
+        "Google(90)"
+    ],
+    "Create Maximum Number": [
+        1,
+        "Hard",
+        "Google(90)"
+    ],
+    "Verify Preorder Serialization of a Binary Tree": [
         1,
         "Medium",
         "Google(90)"
     ],
-    "Fraction to Recurring Decimal": [
+    "Guess Number Higher or Lower": [
+        1,
+        "Easy",
+        "Google(90)"
+    ],
+    "Power of Three": [
+        1,
+        "Easy",
+        "Google(90)"
+    ],
+    "Pacific Atlantic Water Flow": [
         1,
         "Medium",
+        "Google(90)"
+    ],
+    "Range Addition": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Max Sum of Rectangle No Larger Than K": [
+        1,
+        "Hard",
+        "Google(90)"
+    ],
+    "Count Numbers with Unique Digits": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Line Reflection": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Patching Array": [
+        1,
+        "Hard",
+        "Google(90)"
+    ],
+    "Sequence Reconstruction": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Number of Boomerangs": [
+        1,
+        "Easy",
         "Google(90)"
     ],
     "Shortest Word Distance II": [
@@ -1029,22 +1235,152 @@
         "Medium",
         "LinkedIn(39)"
     ],
-    "Encode and Decode Strings": [
+    "Find All Numbers Disappeared in an Array": [
+        1,
+        "Easy",
+        "Google(90)"
+    ],
+    "Evaluate Division": [
         1,
         "Medium",
         "Google(90)"
+    ],
+    "Generalized Abbreviation": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Remove Duplicate Letters": [
+        1,
+        "Hard",
+        "Google(90)"
+    ],
+    "Ones and Zeroes": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Strobogrammatic Number II": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Minimum Unique Word Abbreviation": [
+        1,
+        "Hard",
+        "Google(90)"
+    ],
+    "Longest Increasing Path in a Matrix": [
+        1,
+        "Hard",
+        "Google(90)"
+    ],
+    "Find Median from Data Stream": [
+        1,
+        "Hard",
+        "Google(90)"
+    ],
+    "Minimum Height Trees": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Convex Polygon": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Heaters": [
+        1,
+        "Easy",
+        "Google(90)"
+    ],
+    "All O`one Data Structure": [
+        1,
+        "Hard",
+        "Uber(42)"
     ],
     "Trips and Users": [
         1,
         "Hard",
         "Uber(42)"
     ],
-    "Closest Binary Search Tree Value II": [
+    "Summary Ranges": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Delete Node in a BST": [
+        1,
+        "Medium",
+        "Uber(42)"
+    ],
+    "Longest Substring with At Most Two Distinct Characters": [
         1,
         "Hard",
         "Google(90)"
     ],
-    "Binary Tree Upside Down": [
+    "Shortest Word Distance III": [
+        1,
+        "Medium",
+        "LinkedIn(39)"
+    ],
+    "Logger Rate Limiter": [
+        1,
+        "Easy",
+        "Google(90)"
+    ],
+    "Repeated DNA Sequences": [
+        1,
+        "Medium",
+        "LinkedIn(39)"
+    ],
+    "Flip Game II": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Isomorphic Strings": [
+        1,
+        "Easy",
+        "LinkedIn(39)"
+    ],
+    "Find Leaves of Binary Tree": [
+        1,
+        "Medium",
+        "LinkedIn(39)"
+    ],
+    "Count of Smaller Numbers After Self": [
+        1,
+        "Hard",
+        "Google(90)"
+    ],
+    "Sort Transformed Array": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Nth Digit": [
+        1,
+        "Easy",
+        "Google(90)"
+    ],
+    "Paint Fence": [
+        1,
+        "Easy",
+        "Google(90)"
+    ],
+    "Search for a Range": [
+        1,
+        "Medium",
+        "LinkedIn(39)"
+    ],
+    "Find the Difference": [
+        1,
+        "Easy",
+        "Google(90)"
+    ],
+    "Can I Win": [
         1,
         "Medium",
         "LinkedIn(39)"
@@ -1054,52 +1390,7 @@
         "Medium",
         "Uber(42)"
     ],
-    "Paint Fence": [
-        1,
-        "Easy",
-        "Google(90)"
-    ],
-    "Convert Sorted Array to Binary Search Tree": [
-        1,
-        "Medium",
-        "Airbnb(20)"
-    ],
-    "Perfect Squares": [
-        1,
-        "Medium",
-        "Google(90)"
-    ],
-    "Wiggle Sort": [
-        1,
-        "Medium",
-        "Google(90)"
-    ],
-    "Zigzag Iterator": [
-        1,
-        "Medium",
-        "Google(90)"
-    ],
-    "Shortest Word Distance": [
-        1,
-        "Easy",
-        "LinkedIn(39)"
-    ],
-    "Nested List Weight Sum": [
-        1,
-        "Easy",
-        "LinkedIn(39)"
-    ],
-    "Shortest Palindrome": [
-        1,
-        "Hard",
-        "Google(90)"
-    ],
-    "Unique Word Abbreviation": [
-        1,
-        "Easy",
-        "Google(90)"
-    ],
-    "Plus One": [
+    "Binary Watch": [
         1,
         "Easy",
         "Google(90)"
@@ -1109,37 +1400,42 @@
         "Easy",
         "Google(90)"
     ],
-    "Flip Game II": [
+    "Maximum Product Subarray": [
+        1,
+        "Medium",
+        "LinkedIn(39)"
+    ],
+    "Nested List Weight Sum II": [
+        1,
+        "Medium",
+        "LinkedIn(39)"
+    ],
+    "Binary Tree Upside Down": [
+        1,
+        "Medium",
+        "LinkedIn(39)"
+    ],
+    "Maximum Product of Word Lengths": [
         1,
         "Medium",
         "Google(90)"
     ],
-    "Find Median from Data Stream": [
+    "Valid Perfect Square": [
         1,
-        "Hard",
-        "Google(90)"
+        "Medium",
+        "LinkedIn(39)"
     ],
-    "Count and Say": [
+    "Convert Sorted Array to Binary Search Tree": [
         1,
-        "Easy",
-        "Facebook(79)"
+        "Medium",
+        "Airbnb(20)"
     ],
-    "Binary Tree Longest Consecutive Sequence": [
+    "Longest Absolute File Path": [
         1,
         "Medium",
         "Google(90)"
     ],
-    "Add Binary": [
-        1,
-        "Easy",
-        "Facebook(79)"
-    ],
-    "Smallest Rectangle Enclosing Black Pixels": [
-        1,
-        "Hard",
-        "Google(90)"
-    ],
-    "Number of Islands II": [
+    "Longest Substring with At Most K Distinct Characters": [
         1,
         "Hard",
         "Google(90)"
@@ -1149,112 +1445,37 @@
         "Hard",
         "Google(90)"
     ],
-    "Best Time to Buy and Sell Stock with Cooldown": [
+    "Sentence Screen Fitting": [
         1,
         "Medium",
         "Google(90)"
     ],
-    "Remove Duplicates from Sorted Array II": [
-        1,
-        "Medium",
-        "Facebook(79)"
-    ],
-    "Maximal Rectangle": [
-        1,
-        "Hard",
-        "Facebook(79)"
-    ],
-    "Minimum Height Trees": [
+    "Plus One Linked List": [
         1,
         "Medium",
         "Google(90)"
     ],
-    "Subsets II": [
+    "Mini Parser": [
         1,
         "Medium",
-        "Facebook(79)"
+        "Airbnb(20)"
     ],
-    "Burst Balloons": [
+    "Rearrange String k Distance Apart": [
         1,
         "Hard",
         "Google(90)"
     ],
-    "Super Ugly Number": [
+    "Basic Calculator II": [
         1,
         "Medium",
-        "Google(90)"
+        "Airbnb(20)"
     ],
-    "Read N Characters Given Read4": [
+    "Island Perimeter": [
         1,
         "Easy",
-        "Facebook(79)"
-    ],
-    "Basic Calculator": [
-        1,
-        "Hard",
         "Google(90)"
     ],
-    "Minimum Size Subarray Sum": [
-        1,
-        "Medium",
-        "Facebook(79)"
-    ],
-    "Count of Smaller Numbers After Self": [
-        1,
-        "Hard",
-        "Google(90)"
-    ],
-    "Add and Search Word - Data structure design": [
-        1,
-        "Medium",
-        "Facebook(79)"
-    ],
-    "Remove Duplicate Letters": [
-        1,
-        "Hard",
-        "Google(90)"
-    ],
-    "Summary Ranges": [
-        1,
-        "Medium",
-        "Google(90)"
-    ],
-    "Maximum Product of Word Lengths": [
-        1,
-        "Medium",
-        "Google(90)"
-    ],
-    "Meeting Rooms": [
-        1,
-        "Easy",
-        "Facebook(79)"
-    ],
-    "Paint House II": [
-        1,
-        "Hard",
-        "Facebook(79)"
-    ],
-    "Generalized Abbreviation": [
-        1,
-        "Medium",
-        "Google(90)"
-    ],
-    "H-Index II": [
-        1,
-        "Medium",
-        "Facebook(79)"
-    ],
-    "First Bad Version": [
-        1,
-        "Easy",
-        "Facebook(79)"
-    ],
-    "Create Maximum Number": [
-        1,
-        "Hard",
-        "Google(90)"
-    ],
-    "Number of Connected Components in an Undirected Graph": [
+    "Bomb Enemy": [
         1,
         "Medium",
         "Google(90)"
@@ -1264,15 +1485,205 @@
         "Hard",
         "Facebook(79)"
     ],
-    "Wiggle Sort II": [
+    "Add Binary": [
+        1,
+        "Easy",
+        "Facebook(79)"
+    ],
+    "Longest Palindrome": [
+        1,
+        "Easy",
+        "Google(90)"
+    ],
+    "First Bad Version": [
+        1,
+        "Easy",
+        "Facebook(79)"
+    ],
+    "Zigzag Iterator": [
         1,
         "Medium",
         "Google(90)"
+    ],
+    "Binary Tree Longest Consecutive Sequence": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Read N Characters Given Read4": [
+        1,
+        "Easy",
+        "Facebook(79)"
+    ],
+    "Add and Search Word - Data structure design": [
+        1,
+        "Medium",
+        "Facebook(79)"
+    ],
+    "Word Squares": [
+        1,
+        "Hard",
+        "Google(90)"
+    ],
+    "Moving Average from Data Stream": [
+        1,
+        "Easy",
+        "Google(90)"
+    ],
+    "Meeting Rooms": [
+        1,
+        "Easy",
+        "Facebook(79)"
+    ],
+    "Maximum XOR of Two Numbers in an Array": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Missing Ranges": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Count and Say": [
+        1,
+        "Easy",
+        "Facebook(79)"
+    ],
+    "Minimum Size Subarray Sum": [
+        1,
+        "Medium",
+        "Facebook(79)"
+    ],
+    "Count of Range Sum": [
+        1,
+        "Hard",
+        "Google(90)"
+    ],
+    "Reconstruct Itinerary": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Subsets II": [
+        1,
+        "Medium",
+        "Facebook(79)"
     ],
     "Increasing Triplet Subsequence": [
         1,
         "Medium",
         "Facebook(79)"
+    ],
+    "Random Pick Index": [
+        1,
+        "Medium",
+        "Facebook(79)"
+    ],
+    "Decode String": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Plus One": [
+        1,
+        "Easy",
+        "Google(90)"
+    ],
+    "UTF-8 Validation": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Evaluate Reverse Polish Notation": [
+        1,
+        "Medium",
+        "LinkedIn(39)"
+    ],
+    "Encode and Decode Strings": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Wiggle Sort II": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Maximal Rectangle": [
+        1,
+        "Hard",
+        "Facebook(79)"
+    ],
+    "Unique Word Abbreviation": [
+        1,
+        "Easy",
+        "Google(90)"
+    ],
+    "Fraction to Recurring Decimal": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Paint House II": [
+        1,
+        "Hard",
+        "Facebook(79)"
+    ],
+    "Number of Islands II": [
+        1,
+        "Hard",
+        "Google(90)"
+    ],
+    "H-Index II": [
+        1,
+        "Medium",
+        "Facebook(79)"
+    ],
+    "Remove Duplicates from Sorted Array II": [
+        1,
+        "Medium",
+        "Facebook(79)"
+    ],
+    "Hamming Distance": [
+        1,
+        "Easy",
+        "Facebook(79)"
+    ],
+    "Wiggle Sort": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Sum of Left Leaves": [
+        1,
+        "Easy",
+        "Facebook(79)"
+    ],
+    "Split Array Largest Sum": [
+        1,
+        "Hard",
+        "Facebook(79)"
+    ],
+    "Total Hamming Distance": [
+        1,
+        "Medium",
+        "Facebook(79)"
+    ],
+    "Minimum Genetic Mutation": [
+        1,
+        "Medium",
+        "Twitter(21)"
+    ],
+    "Best Meeting Point": [
+        1,
+        "Hard",
+        "Twitter(21)"
+    ],
+    "Paint House": [
+        1,
+        "Medium",
+        "LinkedIn(39)"
     ],
     "Integer to Roman": [
         1,
@@ -1284,14 +1695,14 @@
         "Medium",
         "Twitter(21)"
     ],
-    "Power of Three": [
+    "Linked List Random Node": [
         1,
-        "Easy",
+        "Medium",
         "Google(90)"
     ],
-    "Best Meeting Point": [
+    "Validate IP Address": [
         1,
-        "Hard",
+        "Medium",
         "Twitter(21)"
     ],
     "N-Queens II": [
@@ -1299,19 +1710,19 @@
         "Hard",
         "Zenefit(21)"
     ],
+    "Verify Preorder Sequence in Binary Search Tree": [
+        1,
+        "Medium",
+        "Zenefit(21)"
+    ],
     "Convert Sorted List to Binary Search Tree": [
         1,
         "Medium",
         "Zenefit(21)"
     ],
-    "Count of Range Sum": [
+    "Power of Two": [
         1,
-        "Hard",
-        "Google(90)"
-    ],
-    "Longest Increasing Path in a Matrix": [
-        1,
-        "Hard",
+        "Easy",
         "Google(90)"
     ],
     "Majority Element II": [
@@ -1319,39 +1730,49 @@
         "Medium",
         "Zenefit(21)"
     ],
-    "Verify Preorder Sequence in Binary Search Tree": [
-        1,
-        "Medium",
-        "Zenefit(21)"
-    ],
-    "Patching Array": [
+    "3Sum Smaller": [
         1,
         "Medium",
         "Google(90)"
     ],
-    "Verify Preorder Serialization of a Binary Tree": [
+    "Find All Anagrams in a String": [
+        1,
+        "Easy",
+        "Amazon(41)"
+    ],
+    "Two Sum III - Data structure design": [
+        1,
+        "Easy",
+        "LinkedIn(39)"
+    ],
+    "Strobogrammatic Number": [
+        1,
+        "Easy",
+        "Google(90)"
+    ],
+    "Android Unlock Patterns": [
         1,
         "Medium",
         "Google(90)"
     ],
-    "Reconstruct Itinerary": [
-        1,
-        "Medium",
-        "Google(90)"
-    ],
-    "Gray Code": [
+    "Serialize and Deserialize BST": [
         1,
         "Medium",
         "Amazon(41)"
     ],
-    "Paint House": [
+    "Valid Word Square": [
         1,
-        "Medium",
-        "LinkedIn(39)"
+        "Easy",
+        "Google(90)"
     ],
-    "Longest Substring with At Most K Distinct Characters": [
+    "Basic Calculator": [
         1,
         "Hard",
+        "Google(90)"
+    ],
+    "Queue Reconstruction by Height": [
+        1,
+        "Medium",
         "Google(90)"
     ],
     "Two Sum II - Input array is sorted": [
@@ -1359,69 +1780,69 @@
         "Medium",
         "Amazon(41)"
     ],
+    "Closest Binary Search Tree Value II": [
+        1,
+        "Hard",
+        "Google(90)"
+    ],
+    "Gray Code": [
+        1,
+        "Medium",
+        "Amazon(41)"
+    ],
+    "Perfect Rectangle": [
+        1,
+        "Hard",
+        "Google(90)"
+    ],
+    "Third Maximum Number": [
+        1,
+        "Easy",
+        "Amazon(41)"
+    ],
     "Binary Tree Right Side View": [
         1,
         "Medium",
         "Amazon(41)"
     ],
-    "Flatten Nested List Iterator": [
+    "Pascal's Triangle II": [
+        1,
+        "Easy",
+        "Amazon(41)"
+    ],
+    "Rotate Function": [
+        1,
+        "Easy",
+        "Amazon(41)"
+    ],
+    "Battleships in a Board": [
+        1,
+        "Medium",
+        "Microsoft(77)"
+    ],
+    "Next Permutation": [
         1,
         "Medium",
         "Google(90)"
     ],
-    "Jump Game": [
+    "Best Time to Buy and Sell Stock with Cooldown": [
         1,
         "Medium",
-        "Microsoft(77)"
-    ],
-    "Set Matrix Zeroes": [
-        1,
-        "Medium",
-        "Microsoft(77)"
-    ],
-    "Binary Tree Inorder Traversal": [
-        1,
-        "Medium",
-        "Microsoft(77)"
-    ],
-    "Construct Binary Tree from Inorder and Postorder Traversal": [
-        1,
-        "Medium",
-        "Microsoft(77)"
-    ],
-    "Path Sum": [
-        1,
-        "Easy",
-        "Microsoft(77)"
-    ],
-    "Flatten Binary Tree to Linked List": [
-        1,
-        "Medium",
-        "Microsoft(77)"
+        "Google(90)"
     ],
     "Populating Next Right Pointers in Each Node": [
         1,
         "Medium",
         "Microsoft(77)"
     ],
-    "Binary Tree Maximum Path Sum": [
-        1,
-        "Hard",
-        "Microsoft(77)"
-    ],
-    "Search for a Range": [
-        1,
-        "Medium",
-        "LinkedIn(39)"
-    ],
-    "Find Minimum in Rotated Sorted Array": [
-        1,
-        "Medium",
-        "Microsoft(77)"
-    ],
-    "Power of Two": [
+    "Valid Word Abbreviation": [
         1,
         "Easy",
+        "Google(90)"
+    ],
+    "Guess Number Higher or Lower II": [
+        1,
+        "Medium",
         "Google(90)"
     ],
     "Dungeon Game": [
@@ -1429,42 +1850,77 @@
         "Hard",
         "Microsoft(77)"
     ],
-    "Repeated DNA Sequences": [
-        1,
-        "Medium",
-        "LinkedIn(39)"
-    ],
-    "Maximum Product Subarray": [
-        1,
-        "Medium",
-        "LinkedIn(39)"
-    ],
-    "House Robber II": [
+    "Find Minimum in Rotated Sorted Array": [
         1,
         "Medium",
         "Microsoft(77)"
     ],
-    "Strobogrammatic Number": [
-        1,
-        "Easy",
-        "Google(90)"
-    ],
-    "Sudoku Solver": [
-        1,
-        "Hard",
-        "Uber(42)"
-    ],
-    "Strobogrammatic Number II": [
+    "Perfect Squares": [
         1,
         "Medium",
         "Google(90)"
     ],
-    "Valid Number": [
+    "Design Snake Game": [
         1,
-        "Hard",
+        "Medium",
+        "Google(90)"
+    ],
+    "Integer Replacement": [
+        1,
+        "Medium",
+        "Google(90)"
+    ],
+    "Construct Binary Tree from Inorder and Postorder Traversal": [
+        1,
+        "Medium",
+        "Microsoft(77)"
+    ],
+    "Shortest Word Distance": [
+        1,
+        "Easy",
         "LinkedIn(39)"
     ],
+    "Binary Tree Inorder Traversal": [
+        1,
+        "Medium",
+        "Microsoft(77)"
+    ],
+    "Smallest Rectangle Enclosing Black Pixels": [
+        1,
+        "Hard",
+        "Google(90)"
+    ],
+    "Path Sum": [
+        1,
+        "Easy",
+        "Microsoft(77)"
+    ],
+    "Binary Tree Maximum Path Sum": [
+        1,
+        "Hard",
+        "Microsoft(77)"
+    ],
+    "Water and Jug Problem": [
+        1,
+        "Medium",
+        "Microsoft(77)"
+    ],
+    "Jump Game": [
+        1,
+        "Medium",
+        "Microsoft(77)"
+    ],
     "Longest Increasing Subsequence": [
+        1,
+        "Medium",
+        "Microsoft(77)"
+    ],
+    "Flatten Binary Tree to Linked List": [
+        1,
+        "Medium",
+        "Microsoft(77)"
+    ],
+    "House Robber II": [
         1,
         "Medium",
         "Microsoft(77)"
@@ -1474,32 +1930,77 @@
         "Medium",
         "Microsoft(77)"
     ],
+    "Minimum Number of Arrows to Burst Balloons": [
+        1,
+        "Medium",
+        "Microsoft(77)"
+    ],
     "Unique Binary Search Trees": [
         1,
         "Medium",
         "Snapchat(15)"
     ],
-    "Evaluate Reverse Polish Notation": [
+    "Frog Jump": [
+        1,
+        "Hard",
+        "Snapchat(15)"
+    ],
+    "Combination Sum II": [
         1,
         "Medium",
+        "Snapchat(15)"
+    ],
+    "Ternary Expression Parser": [
+        1,
+        "Medium",
+        "Snapchat(15)"
+    ],
+    "Russian Doll Envelopes": [
+        1,
+        "Hard",
+        "Google(90)"
+    ],
+    "Nested List Weight Sum": [
+        1,
+        "Easy",
         "LinkedIn(39)"
     ],
-    "Shortest Word Distance III": [
+    "Ransom Note": [
         1,
-        "Medium",
-        "LinkedIn(39)"
+        "Easy",
+        "Apple(28)"
     ],
-    "Container With Most Water": [
+    "Largest Palindrome Product": [
         1,
-        "Medium",
-        "Bloomberg(57)"
-    ],
-    "3Sum Closest": [
-        1,
-        "Medium",
-        "Bloomberg(57)"
+        "Easy",
+        "Yahoo(11)"
     ],
     "Unique Paths": [
+        1,
+        "Medium",
+        "Bloomberg(57)"
+    ],
+    "Lexicographical Numbers": [
+        1,
+        "Medium",
+        "Bloomberg(57)"
+    ],
+    "Best Time to Buy and Sell Stock II": [
+        1,
+        "Medium",
+        "Bloomberg(57)"
+    ],
+    "Find the Duplicate Number": [
+        1,
+        "Hard",
+        "Bloomberg(57)"
+    ],
+    "Implement Stack using Queues": [
+        1,
+        "Easy",
+        "Bloomberg(57)"
+    ],
+    "Construct Binary Tree from Preorder and Inorder Traversal": [
         1,
         "Medium",
         "Bloomberg(57)"
@@ -1514,22 +2015,12 @@
         "Easy",
         "Bloomberg(57)"
     ],
-    "Construct Binary Tree from Preorder and Inorder Traversal": [
-        1,
-        "Medium",
-        "Bloomberg(57)"
-    ],
-    "Balanced Binary Tree": [
+    "Factorial Trailing Zeroes": [
         1,
         "Easy",
         "Bloomberg(57)"
     ],
-    "Path Sum II": [
-        1,
-        "Medium",
-        "Bloomberg(57)"
-    ],
-    "Best Time to Buy and Sell Stock II": [
+    "3Sum Closest": [
         1,
         "Medium",
         "Bloomberg(57)"
@@ -1539,30 +2030,45 @@
         "Medium",
         "Bloomberg(57)"
     ],
-    "Factorial Trailing Zeroes": [
+    "Container With Most Water": [
+        1,
+        "Medium",
+        "Bloomberg(57)"
+    ],
+    "Path Sum II": [
+        1,
+        "Medium",
+        "Bloomberg(57)"
+    ],
+    "Balanced Binary Tree": [
         1,
         "Easy",
         "Bloomberg(57)"
     ],
-    "Implement Stack using Queues": [
+    "Largest Divisible Subset": [
         1,
-        "Easy",
-        "Bloomberg(57)"
-    ],
-    "Find the Duplicate Number": [
-        1,
-        "Hard",
-        "Bloomberg(57)"
+        "Medium",
+        "Google(90)"
     ],
     "Longest Common Prefix": [
         1,
         "Easy",
         "Yelp(12)"
     ],
+    "Insert Delete GetRandom O(1) - Duplicates allowed": [
+        1,
+        "Hard",
+        "Yelp(12)"
+    ],
     "Range Sum Query - Immutable": [
         1,
         "Easy",
         "Palantir(7)"
+    ],
+    "29.8%": [
+        1,
+        null,
+        "Adobe(12)"
     ],
     "Tenth Line": [
         1,
@@ -1573,5 +2079,15 @@
         1,
         "Easy",
         "Adobe(12)"
+    ],
+    "Longest Repeating Character Replacement": [
+        1,
+        "Medium",
+        "PocketGems"
+    ],
+    "Find All Duplicates in an Array": [
+        1,
+        "Medium",
+        "PocketGems"
     ]
 }
