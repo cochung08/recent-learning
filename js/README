@@ -10,7 +10,7 @@ It means the problem called "Two Sum" , which is asked by "2" companies, namely,
 
 How to run the code?
 
-Simply download all the files, then "node r.js" under linux terminal
+Simply download all the files, then "node rank.js" in linux terminal
 
 Who provides the raw data?
 Someone bought the premium account for leetcode.com, then uploaded the raw data which contains the company info.
