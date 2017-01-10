@@ -1,4 +1,3 @@
-console.log('Hello World');
 var myLines = require('fs').readFileSync('leetcode.txt').toString()
 
 arrayOfLines = myLines.match(/[^\r\n]+/g);
@@ -93,22 +92,18 @@ for (q = 0; q < items.length; ++q) {
 //     }
 // console.log(result)
 
-
 var fs = require('fs');
 
-// var myData = {
-//   name:'test',
-//   version:'1.0'
-// }
-
 myData=result
-var outputFilename = './my.json';
+var outputFilename = './rank.json';
 
 fs.writeFile(outputFilename, JSON.stringify(myData, null, 4), function(err) {
     if(err) {
       console.log(err);
     } else {
-      console.log("JSON saved to " + outputFilename);
+      console.log("JSON saved to: " + outputFilename);
     }
 });
+
+
 console.log(items.length);

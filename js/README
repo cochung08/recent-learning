@@ -1,21 +1,19 @@
-attached files and code summarized what companies asked what questions most during interviews(both phone and onsite)
+This project summarized what companies asked what questions most during interviews(both phone and onsite)
 
-how to read the result?
+**How to read the result?**
 e.g:
 
 { 'Two Sum': [ 2, 'Easy', 'LinkedIn(39)', 'Google(39)' ],
   'Merge Two Sorted Lists': [ 2, 'Easy', 'LinkedIn(39)', 'Google(39)' ] }
 
-It means the problem called "Two Sum" , which is asked by "2" companies, namely, LinkedIn and Google. The problem is considered "easy" by leetcode.com(the leetcode.com is created by some current googlers)
+It means the problem called "Two Sum" , which is asked by "2" companies, namely, LinkedIn and Google. The problem is considered "easy" by leetcode.com
 
-How to run the code?
+**How to run the code?**
 
-Simply download all the files, then "node r.js" under linux terminal
+"**leetrank$ node rank.js**" under linux terminal
 
-Who provides the raw data?
-Someone bought the premium account for leetcode.com, then uploaded the raw data which contains the company info.
 
-What to do next?
-There are many other ways to sort the result. Now I sort the result by how many companies ask the problem, which I will practice it first. You can sort it other ways. The result is now in "object" format in JS, should not be too difficult to visualize it after converting it to JSON and then plot it using D3.js
+**What to do next?**
+There are many other ways to sort the result. Now I sort the result by how many companies ask the problem. You can sort it other ways. The result is now in "object" format in JS, should not be too difficult to visualize it after converting it to JSON and then plot it using D3.js
 
 Have fun!
