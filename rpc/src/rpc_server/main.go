@@ -1,7 +1,7 @@
 package main
 
 // considered harmful
-import "../server"
+import "server"
 
 import "net"
 import "net/http"
