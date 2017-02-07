@@ -1,5 +1,4 @@
 var myLines = require('fs').readFileSync('leetcode.txt').toString()
-
 arrayOfLines = myLines.match(/[^\r\n]+/g);
 // console.log(arrayOfLines)
 
@@ -10,7 +9,7 @@ var company = ""
 for (i = 0; i < arrayOfLines.length; i++) {
     arrayOfLines[i] =
         arrayOfLines[i].trim()
-        console.log('!'+arrayOfLines[i]+'!',arrayOfLines[i][0].match(/[a-zA-Z]/),"\n");
+        // console.log('!'+arrayOfLines[i]+'!',arrayOfLines[i][0].match(/[a-zA-Z]/),"\n");
         // console.log(arrayOfLines)
     if (arrayOfLines[i][0].match(/[a-zA-Z]/)) {
         company = arrayOfLines[i]
@@ -20,11 +19,26 @@ for (i = 0; i < arrayOfLines.length; i++) {
         // console.log(arrayOfLines[i].replace(/\s\s+/g, ' ').split(" "))
         // leetcode[company].push(arrayOfLines[i].replace(/\s\s+/g, ' ').split(" "))
         leetcode[company].push(arrayOfLines[i].split("        "))
-        console.log(arrayOfLines[i].split("        ").length);
+            // console.log(arrayOfLines[i].split("        ").length);
     }
 }
 
 // console.log(leetcode)
+Object.keys(leetcode).forEach(function(key) {
+    var val = leetcode[key];
+    val.sort(function(a, b) {
+        return parseFloat(a[0]) - parseFloat(b[0]);
+    });
+    newName = key.substr(0, key.indexOf('(')) + '(' + leetcode[key].length + ')'
+
+    if (newName != key) {
+        leetcode[newName] = leetcode[key]
+        delete leetcode[key]
+    }
+
+});
+console.log(leetcode)
+
 var result = []
 var dic = {}
 for (var key in leetcode) {
@@ -38,7 +52,7 @@ for (var key in leetcode) {
         else dic[value[index][1]] = 1
     }
 }
-console.log(dic)
+// console.log(dic)
 
 // Create items array
 var items = Object.keys(dic).map(function(key) {
@@ -94,14 +108,21 @@ for (q = 0; q < items.length; ++q) {
 
 var fs = require('fs');
 
-myData=result
-var outputFilename = './rank.json';
-
-fs.writeFile(outputFilename, JSON.stringify(myData, null, 4), function(err) {
-    if(err) {
-      console.log(err);
+var sortByCompany = './sortByCompany.json';
+fs.writeFile(sortByCompany, JSON.stringify(leetcode, null, 4), function(err) {
+    if (err) {
+        console.log(err);
     } else {
-      console.log("JSON saved to: " + outputFilename);
+        console.log("JSON saved to: " + sortByCompany);
+    }
+});
+
+var sortByFrequency = './sortByFrequency.json';
+fs.writeFile(sortByFrequency, JSON.stringify(result, null, 4), function(err) {
+    if (err) {
+        console.log(err);
+    } else {
+        console.log("JSON saved to: " + sortByFrequency);
     }
 });
 
