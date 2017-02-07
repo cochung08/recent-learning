@@ -126,5 +126,35 @@ fs.writeFile(sortByFrequency, JSON.stringify(result, null, 4), function(err) {
     }
 });
 
+var fs = require('fs');
+var stream = fs.createWriteStream("PROBLEMS.txt");
+stream.once('open', function(fd) {
+
+    keys = Object.keys(leetcode)
+    keys.sort()
+    console.log(keys);
+    for (i = 0; i < keys.length; i++) {
+        key = keys[i]
+        var val = leetcode[key];
+
+        for (j = 0; j < leetcode[key].length; j++) {
+            stream.write(key + ": " + leetcode[key][j] + "\n");
+        }
+
+        stream.write("\n\n");
+
+    }
+    // Object.keys(leetcode).forEach(function(key) {
+    //     var val = leetcode[key];
+    //     for (i = 0; i < leetcode[key].length; i++) {
+    //         stream.write(key + ": " + leetcode[key][i] + "\n");
+    //     }
+
+    //     stream.write("\n\n");
+
+    // });
+    stream.end();
+
+});
 
 console.log(items.length);
